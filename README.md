@@ -53,4 +53,32 @@ Digunakan untuk menghapus data yang sudah ada, Apabila data masih kosong maka ak
 <br>
 <img width="543" height="521" alt="image" src="https://github.com/user-attachments/assets/e3ec5f45-8e18-4dec-93cd-9f1acb2cae44" />
 <br>
-Saat login akun, program akan melakukan pengecekan apakah "role" dari akun tersebut adalah dosen atau mahasiswa, jika akun tersebut memiliki "role" dosen maka akan memenuhi syarat dan diberikan akses CRUD terhadap program, dan apabila "role" dari akun
+Saat login akun, program akan melakukan pengecekan apakah "role" dari akun tersebut adalah dosen atau mahasiswa, jika akun tersebut memiliki "role" dosen maka akan memenuhi syarat dan diberikan akses CRUD terhadap program, dan apabila "role" dari akun tersebut bukan dosen, maka akan diberikan akses untuk menampilkan data dan logout saja, saat menggunakan akun dosen, akan diberikan "Menu" yang digunakan untuk dosen, bisa digunakan dengan meng-input nomor yang sesuai dengan function (1-4 untuk function, 5 untuk mengakhiri).
+  <br>
+  <img width="651" height="461" alt="image" src="https://github.com/user-attachments/assets/add2b5af-1b29-4452-a9d8-0ed95e4fd11c" />
+<br>
+Kode ini berfungsi sebagai Penutup/Pemberhentian Looping di dalam source code yang tertera, Melanjutkan dari 3x kesempatan login tadi, disinilah tempat Break dari looping yang terjadi pada function login di atas, serta sebagai placeholder "Decision" saat logout, berfungsi untuk menentukan apakah Program terus berlanjut atau berhenti.
+<br>
+<img width="459" height="277" alt="image" src="https://github.com/user-attachments/assets/5e779f2c-a8b1-4dfe-a5f9-4f7c93ecfd04" />
+<br>
+Fungsi 1, Menambahkan data dalam akun dosen
+<br>
+<img width="276" height="157" alt="image" src="https://github.com/user-attachments/assets/9277a8d1-b64d-4c0a-85f9-c9514cddb8b4" />
+<br>
+Fungsi 2, Menampilkan data yang ada di dalam list/dictionary
+<br>
+<img width="383" height="258" alt="image" src="https://github.com/user-attachments/assets/4a388a20-05b6-4010-8614-ab431b717409" />
+<br>
+Fungsi 3, Mengubah data yang ada di dalam list/dictionary
+<br>
+<img width="285" height="197" alt="image" src="https://github.com/user-attachments/assets/7943d071-c39c-49f1-bd0f-4acbef1c82fc" />
+<br>
+Fungsi 4, menghapus data yang ada di dalam list/dictionary
+<br>
+<img width="289" height="172" alt="image" src="https://github.com/user-attachments/assets/e72637dd-feb9-42e5-b042-e5d2027041aa" />
+<br>
+Fungsi 5, melakukan logout dan Perulangan while, apakah memilih untuk mengakhiri program atau melanjutkan
+<br>
+<img width="298" height="180" alt="image" src="https://github.com/user-attachments/assets/e13afcfb-6cf8-46d9-8693-7fa2fbd88528" />
+<br>
+Penampilan Fungsi 1 dari Menu Mahasiswa

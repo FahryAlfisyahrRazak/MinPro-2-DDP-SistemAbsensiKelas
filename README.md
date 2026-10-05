@@ -49,5 +49,8 @@ Bagian ini digunakan untuk mengubah data, Apabila data absensi kosong, akan meng
 <br>
 <img width="465" height="236" alt="image" src="https://github.com/user-attachments/assets/b486fd30-b923-4215-a964-03648de8b9e1" />
 <br>
-Digunakan untuk menghapus data yang sudah ada, Apabila data masih kosong maka akan mengeluarkan peringatan "Data kosong, Tidak bisa Dihapus", Apabila ada data di dalam dictionary maka akan mengeluarkan opsi nomor data yang dapat dihapus, jika memilih nomor data yang ada, maka akan keluar pernyataan "Data berhasil Dihapus", jika memilih nomor yang tidak ada di dalam data, maka akan mengeluarkan peringatan "Nomor tidak valid"
-
+Digunakan untuk menghapus data yang sudah ada, Apabila data masih kosong maka akan mengeluarkan peringatan "Data kosong, Tidak bisa Dihapus", Apabila ada data di dalam dictionary maka akan mengeluarkan opsi nomor data yang dapat dihapus, jika memilih nomor data yang ada, maka akan keluar pernyataan "Data berhasil Dihapus" dan akan menghapus data yang sudah tersimpan didalam, jika memilih nomor yang tidak ada di dalam data, maka akan mengeluarkan peringatan "Nomor tidak valid"
+<br>
+<img width="543" height="521" alt="image" src="https://github.com/user-attachments/assets/e3ec5f45-8e18-4dec-93cd-9f1acb2cae44" />
+<br>
+Saat login akun, program akan melakukan pengecekan apakah "role" dari akun tersebut adalah dosen atau mahasiswa, jika akun tersebut memiliki "role" dosen maka akan memenuhi syarat dan diberikan akses CRUD terhadap program, dan apabila "role" dari akun
